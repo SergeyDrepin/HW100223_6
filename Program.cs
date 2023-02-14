@@ -1,5 +1,6 @@
 ﻿double a;
-a = 7;
+Console.WriteLine("Введите число");
+a = Convert.ToDouble(Console.ReadLine());
 
 if(a % 2 == 0)
 {
